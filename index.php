@@ -56,7 +56,10 @@ use Dompdf\Dompdf;
 
         <table width="100%" border="0">
             <tr>
-                <td align="center"><b>BIODATA PEGAWAI</b></td>
+                <td align="center">
+                    <b>BIODATA PEGAWAI</b> <br><br>
+                    <img src="http://localhost/dompdfv2/img/cahayu.jpg" alt="logo" width="180px">
+                </td>
             </tr>
         </table>
         <br>
@@ -120,13 +123,6 @@ use Dompdf\Dompdf;
                 <td><b>ALAMAT LENGKAP</b></td>
                 <td>:</td>
                 <td class="isi">Jl. Papandayan No. 15 Semarang</td>
-            </tr>
-            <tr>
-                <td valign="top"><b>FOTO</b></td>
-                <td valign="top">:</td>
-                <td class="isi">
-                    <img src="http://localhost/dompdfv2/img/cahayu.jpg" alt="logo" width="180px">
-                </td>
             </tr>
         </table>
 
